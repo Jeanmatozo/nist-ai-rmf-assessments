@@ -9,7 +9,7 @@ Key Value: Hiring managers—scan this in <2 minutes to see how I can inventory 
 
 ## Contents
 - **templates/**: Reusable Markdown templates for AI Impact Assessments and Risk Registers (aligned with OMB rights/safety-impacting systems).
-- **examples/**: Applied mappings for RAG/LLM systems, e.g., threat modeling prompt injection to RMF functions (Govern/Map/Measure/Manage).
+- **examples/**: Applied mappings for RAG/LLM systems, e.g., threat modeling prompt injection to RMF functions (Govern/Map/Measure/Manage). Examples now include filled-out assessments for RAG systems
 - **automation/**: Python scripts for basic RMF alignment checks (no dependencies; run with `python rmf_alignment_checks.py`).
 
 ## Quick Demo

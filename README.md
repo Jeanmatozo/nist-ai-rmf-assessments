@@ -8,18 +8,55 @@ This repository demonstrates practical mappings of AI vulnerabilities (e.g., OWA
 Key Value: Hiring managers—scan this in <2 minutes to see how I can inventory AI systems, perform impact assessments, and automate RMF checks to mitigate "AI Washing" risks.
 
 ## Contents
-- **templates/**: Reusable Markdown templates for AI Impact Assessments and Risk Registers (aligned with OMB rights/safety-impacting systems).
-- **examples/**: Applied mappings for RAG/LLM systems, e.g., threat modeling prompt injection to RMF functions (Govern/Map/Measure/Manage). Examples now include filled-out assessments for RAG systems
-- **automation/**: Python scripts for basic RMF alignment checks (no dependencies; run with `python rmf_alignment_checks.py`).
+### `templates/`
+Reusable Markdown templates for:
+
+- **AI Impact Assessments**  
+  OMB-aligned templates for evaluating rights- and safety-impacting AI systems.
+- **AI System Risk Registers**  
+  Risk registers with explicit NIST AI RMF mappings and OWASP LLM Top 10 integration.
+- **Federal AI Inventories**  
+  Inventory formats suitable for OMB-compliant tracking and SEC-aligned disclosures.
+
+---
+
+### `examples/`
+Practical, real-world examples for **LLM and RAG systems**, including:
+
+- Vulnerability mappings (OWASP LLM Top 10 → NIST AI RMF: Govern / Map / Measure / Manage)
+- Filled-out AI Impact Assessments and Risk Registers
+- Example Federal AI Inventory entries
+- Threat modeling artifacts for risks such as prompt injection and context poisoning
+
+---
+
+### `automation/`
+Lightweight Python scripts to support **basic RMF alignment checks**.
+
+- No external dependencies required
+- Intended to demonstrate repeatability and governance automation concepts
+
+---
 
 ## Quick Demo
-1. Clone: `git clone https://github.com/Jeanmatozo/nist-ai-rmf-assessments.git`
-2. Run automation: `cd automation && python rmf_alignment_checks.py --input ../examples/rag_llm_rmf_mapping.md`
-3. View examples in browser for RMF mappings.
+
+```bash
+git clone https://github.com/Jeanmatozo/nist-ai-rmf-assessments.git
+```
+
+Run automation: 
+`cd automation
+python rmf_alignment_checks.py --input ../examples/rag_llm_rmf_mapping.md
+`
+Alternatively, browse the examples directly on GitHub to quickly review RMF mappings and compliance artifacts.
 
 ## Why This Matters for US Compliance
-- **NIST AI RMF**: Core framework for managing AI risks.
-- **OMB M-24-10 Legacy**: Requires assessments for rights/safety-impacting AI.
-- **SEC Scrutiny**: Maps vulnerabilities to financial risk disclosures.
+- **NIST AI RMF**:   
+Provides structured AI risk management across the Govern, Map, Measure, and Manage functions.
+- **OMB M-24-10 Legacy**:   
+Reinforces the need for inventories and impact assessments for rights- and safety-impacting AI systems, especially for federal agencies and contractors.
+- **SEC Scrutiny**:  
+Requires accurate mapping of technical AI vulnerabilities to material financial and reputational risks to avoid enforcement actions and misleading disclosures.
 
-Built by [Your Name/LinkedIn]. Contributions welcome for US-centric expansions.
+
+Built by [LinkedIn](https://www.linkedin.com/in/jean-akingeneye-00500213/). Contributions welcome for US-centric expansions.

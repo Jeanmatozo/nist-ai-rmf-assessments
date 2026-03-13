@@ -59,4 +59,4 @@ Reinforces the need for inventories and impact assessments for rights- and safet
 Requires accurate mapping of technical AI vulnerabilities to material financial and reputational risks to avoid enforcement actions and misleading disclosures.
 
 
-Built by [LinkedIn](https://www.linkedin.com/in/jean-akingeneye-00500213/). Contributions welcome for US-centric expansions.
+Built by [jeanmatozo](https://github.com/Jeanmatozo). Contributions welcome for US-centric expansions.
